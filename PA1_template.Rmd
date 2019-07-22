@@ -18,9 +18,8 @@ library(knitr)
 if(!file.exists("C:/Users/Super/Desktop/RepData_PeerAssessment1/activity.csv")){
   unzip("C:/Users/Super/Desktop/RepData_PeerAssessment1/activity.zip")
 }
-
 activityData <- read.csv("C:/Users/Super/Desktop/RepData_PeerAssessment1/activity.csv",header = TRUE)
-head(activityData,3)
+head(activityData,4)
 ```
 **2.Process the data**
 ```{r}
