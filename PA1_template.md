@@ -15,9 +15,8 @@ output:
 if(!file.exists("C:/Users/Super/Desktop/RepData_PeerAssessment1/activity.csv")){
   unzip("C:/Users/Super/Desktop/RepData_PeerAssessment1/activity.zip")
 }
-
 activityData <- read.csv("C:/Users/Super/Desktop/RepData_PeerAssessment1/activity.csv",header = TRUE)
-head(activityData,3)
+head(activityData,4)
 ```
 
 ```
@@ -25,6 +24,7 @@ head(activityData,3)
 ## 1    NA 2012-10-01        0
 ## 2    NA 2012-10-01        5
 ## 3    NA 2012-10-01       10
+## 4    NA 2012-10-01       15
 ```
 **2.Process the data**
 
